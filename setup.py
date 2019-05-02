@@ -8,21 +8,21 @@ readme = str()
 with open('README.md') as f:
     readme = f.read()
 
-setup(name='Flask-Openshift template',
+setup(name='FlaskRestful with mysql connector-Openshift template',
 
       # PEP 440 -- Version Identification and Dependency Specification
       version='0.0.1',
 
       # Project description
-      description='Flask template app for OpenShift',
+      description='FlaskRestful with mysql connector template app for OpenShift',
       long_description=readme,
 
       # Author details
-      author='Antonio Ossa',
-      author_email='aaossa@uc.cl',
+      author='James Pavlic',
+      author_email='james_pavlic@outlook.com',
 
       # Project details
-      url='https://github.com/aaossa/flask-openshift',
+      url='https://github.com/jpavlic/flask-openshift',
       license="GNU v3",
 
       # Project dependencies

@@ -7,8 +7,9 @@
 <body>
 	<h1>Flask OpenShift template</h1>
 
-	<form id="form_login" action="{{ url_for('login') }}" method="POST">
+	<form id="form_login" action="{{ url_for('register') }}" method="POST" enctype="application/json">
 		<input id="username_login" type="text" name="username" placeholder="Username">
+		<input id="password_login" type="text" name="password" placeholder="Password">
 		<input id="submit_login" type="submit" value="Go!">
 	</form>
 </body>
